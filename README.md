@@ -3,7 +3,7 @@
 #### 1. Automatic Setup
 
 ```
-chmod +x install.sh && ./install.sh
+chmod +x install.sh && ./install.sh && kitty --start-as maximized
 ```
 
 #### 2. Manual Configuration
