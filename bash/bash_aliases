@@ -1,0 +1,17 @@
+# cd aliases
+alias cdd='cd ~/dotfiles'
+alias cdk='cd ~/dotfiles/kitty'
+alias cdn='cd ~/dotfiles/nvim/'
+alias cdp='cd ~/projects/'
+
+# ls aliases
+alias ls='ls -1 --color=auto --group-directories-first'
+alias la='ls -A'
+alias ll='ls -alFh'
+
+# vi aliases
+alias vi='nvim'
+
+# shutdown aliases
+alias bye='shutdown -h now'
+alias brb='shutdown -r now'
