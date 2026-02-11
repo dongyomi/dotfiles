@@ -9,6 +9,8 @@ rm -rf ~/.config/kitty ~/.config/nvim
 sudo apt update
 sudo apt install -y kitty curl xclip fd-find ripgrep python3.12-venv 
 sudo snap install nvim --classic
+sudo apt install postgresql
+sudo snap install dbeaver-ce --classic
 
 ln -sf $HOME/dotfiles/kitty ~/.config/kitty 
 ln -sf $HOME/dotfiles/nvim ~/.config/nvim
