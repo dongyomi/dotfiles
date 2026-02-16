@@ -4,6 +4,7 @@ return {
         formatters_by_ft = {
             lua = { "stylua" },
             c = { "clang-format" },
+            json = { "jq" },
         },
         format_on_save = {
             timeout_ms = 500,
