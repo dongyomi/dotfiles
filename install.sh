@@ -12,6 +12,7 @@ sudo snap install nvim --classic
 sudo apt install postgresql
 sudo snap install dbeaver-ce --classic
 sudo apt install tree
+sudo apt install lua5.1
 
 ln -sf $HOME/dotfiles/kitty ~/.config/kitty 
 ln -sf $HOME/dotfiles/nvim ~/.config/nvim
