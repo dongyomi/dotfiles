@@ -21,7 +21,7 @@ Access postgre and create a user and database.
 sudo -i -u postgres psql
  ```
 
-Install R packages.
+Install [R studio](https://posit.co/download/rstudio-desktop/) and packages.
 
 ```
 Rscript -e 'install.packages(c("tidyverse", "RPostgres", "scales", "tidyquant"))'
