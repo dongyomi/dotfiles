@@ -24,5 +24,5 @@ sudo -i -u postgres psql
 Install R packages.
 
 ```
-Rscript -e 'install.packages(c("tidyverse", "RPostgres", "scales", "tidyquant", "styler"))'
+Rscript -e 'install.packages(c("tidyverse", "RPostgres", "scales", "tidyquant"))'
 ```
