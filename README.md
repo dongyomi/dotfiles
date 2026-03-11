@@ -24,5 +24,5 @@ sudo -i -u postgres psql
 Install [R studio](https://posit.co/download/rstudio-desktop/) and packages.
 
 ```
-Rscript -e 'install.packages(c("tidyverse", "RPostgres", "scales", "tidyquant"))'
+Rscript -e 'install.packages(c("tidyverse", "RPostgres", "scales", "tidyquant", "patchwork"))'
 ```
