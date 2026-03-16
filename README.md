@@ -26,3 +26,10 @@ Install [R studio](https://posit.co/download/rstudio-desktop/) and packages.
 ```
 Rscript -e 'install.packages(c("tidyverse", "RPostgres", "scales", "tidyquant", "patchwork"))'
 ```
+
+Update redis config to save "".
+
+```
+sudo nvim /etc/redis/redis.conf
+```
+
