@@ -26,7 +26,7 @@ sudo -i -u postgres psql
 Install [R studio](https://posit.co/download/rstudio-desktop/) and packages.
 
 ```
-Rscript -e 'install.packages(c("DBI", "RPostgres", "tidyverse"))'
+Rscript -e 'install.packages(c("DBI", "RPostgres", "tidyverse", "shiny"))'
 ```
 
 Update redis config to save "".
