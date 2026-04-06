@@ -4,6 +4,7 @@ return {
         formatters_by_ft = {
             lua = { "stylua" },
             c = { "clang-format" },
+            python = { "ruff_format" },
             json = { "jq" },
         },
         format_on_save = {

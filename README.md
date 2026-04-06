@@ -14,6 +14,8 @@ Launch nvim and install the following tools via Mason.nvim.
 - `clangd`
 - `lua-language-server`
 - `stylua`
+- `python-lsp-server`
+- `ruff`
 
 Access postgre and create a user and database.
  
