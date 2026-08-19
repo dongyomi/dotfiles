@@ -1,0 +1,69 @@
+# vim: ft=toml
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+$hostname\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$python\
+$cmd_duration\
+$line_break\
+$character"""
+
+palette = "gruvbox"
+add_newline = false
+continuation_prompt = "[.](white) "
+
+[palettes.gruvbox]
+red	= "#ea6962"
+green	= "#a9b665"
+yellow	= "#d8a657"
+blue	= "#7daea3"
+purple	= "#d3869b"
+cyan	= "#89b482"
+white = "#d4be98"
+
+[hostname]
+ssh_only = false
+ssh_symbol = "ssh "
+style = "yellow bold"
+
+[directory]
+read_only = " ro"
+style = "blue bold"
+
+[git_branch]
+symbol = "git "
+truncation_symbol = "..."
+style = "white bold "
+
+[git_state]
+style = "white blod"
+
+[git_status]
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "x"
+style = "white bold"
+
+[cmd_duration]
+style = "white bold"
+
+[python]
+format = "via [pyenv \\($virtualenv\\)]($style) "
+detect_extensions = []
+detect_files = []
+generic_venv_names = [".venv", "venv", "env"]
+style = "white bold"
+
+[character]
+success_symbol = "[>](bold white)"
+error_symbol = "[x](bold red)"
+vimcmd_symbol = "[<](bold cyan)"
+vimcmd_visual_symbol = "[<](bold yellow)"
+vimcmd_replace_symbol = "[<](bold purple)"
+vimcmd_replace_one_symbol = "[<](bold purple)"

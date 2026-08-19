@@ -1,0 +1,27 @@
+# cd
+alias cdd='cd ~/dotfiles'
+alias cdn='cd ~/dotfiles/config/nvim'
+alias cdp='cd ~/projects'
+
+# ls
+alias ls='ls -1 --color=auto --group-directories-first'
+alias la='ls -A'
+alias ll='ls -alFh'
+alias lt='tree'
+
+# kitten
+alias icat='kitten icat'
+
+# vi
+alias vi='nvim'
+
+# python
+alias va='source $(find . -maxdepth 3 -type f -path "*/bin/activate" | head -n 1)'
+alias vd='deactivate'
+
+# db
+alias pg='pgcli -D'
+
+# shutdown
+alias bye='shutdown -h now'
+alias brb='shutdown -r now'
